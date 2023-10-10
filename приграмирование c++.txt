@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+int main(){
+int n;
+cin>>n;
+switch (n){
+    case 1:
+    cout<<"14:20 - проф.мат, 15:50 - история"<<endl;
+    break;
+    case 2:
+    cout<<"9:30 - програмирование, 11:00 - физ-ра, 13:00 - програмирование, 14:30 - ввос"<<endl;
+    break;
+    case 3:
+    cout<<"нет пар"<<endl;
+    break;
+    case 4:
+    cout<<"13:00 - физ-ра, 14:30 - кыр.яз, 16:00 - география"<<endl;
+    break;
+    case 5:
+    cout<<"11:00 - география, 13:00 - электроника"<<endl;
+    break;
+    case 6:
+    cout<<"11:00 - компьютерная графика, 13:00 - инженерная графика, 14:00 - материаловедение"<<endl;
+    break;
+    default:
+    cout<<"ошибка";
+}
+return 0;}
+
+m = {4, 'hello' , True } - тип данных лист/ список
+b = {5: 'hello' , 'hello:66, true:45, 'Key':'value',66:668, 'age': [45,6,64,464,64]} тип данных dict - cljdfh,
+c=(4, 'hello', True) - тип данных неизменяемый tuple - кортеж
+x = {45, 334, 'dfdfdf", '44r4', tru, 3,3 } = ти пданных множесьв/set
